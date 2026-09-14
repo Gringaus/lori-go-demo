@@ -1,0 +1,18 @@
+{
+  "name": "LORI GO — демоверсия",
+  "short_name": "LORI GO",
+  "description": "Демонстрация единого сценария доставки еды",
+  "start_url": "./demo",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f6f0",
+  "theme_color": "#0b2d25",
+  "icons": [
+    {
+      "src": "./app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
