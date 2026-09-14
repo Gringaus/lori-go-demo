@@ -1,6 +1,6 @@
 const CACHE_NAME = 'lori-go-demo-v2'
 const baseUrl = self.registration.scope
-const CORE = ['', 'demo', 'customer', 'restaurant', 'courier', 'dispatch', 'manifest.webmanifest', 'app-icon.svg', 'assets/family-cafe.png', 'assets/mountain-kitchen.png']
+const CORE = ['', 'manifest.webmanifest', 'app-icon.svg', 'assets/family-cafe.png', 'assets/mountain-kitchen.png']
   .map((path) => new URL(path, baseUrl).toString())
 
 self.addEventListener('install', (event) => {

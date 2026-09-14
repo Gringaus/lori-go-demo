@@ -2,7 +2,7 @@
   "name": "LORI GO — демоверсия",
   "short_name": "LORI GO",
   "description": "Демонстрация единого сценария доставки еды",
-  "start_url": "./demo",
+  "start_url": "./#/demo",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f7f6f0",
